@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BREAKING NEWS</title>
+    <link rel="icon" type="images/x-icon" href="images/ghibli studio.png">
+</head>
+<body>
+    <!--main content-->
+    <div style="font-family:Georgia; background-color: khaki; color: green; text-align:center; font-size: 100%; margin-left: 20%; margin-right: 20%; padding-left: 0%; padding-right: 0%;">
+    <br>
+    <!--judul-->
+    <h1>Studio Animasi dengan Grafik yang Khas</h1> <br>
+
+    <!--Gambar dengan link-->
+    <a href="https://www.studioghibli.com.au/">
+        <img class="img_pos" src="images/logo ghibli.jpeg" height="300" width="500">
+    </a>
+    <br>
+
+    <!--Pembahasan-->
+    <p style="font-family:Times New Roman; font-size: 20px; padding-left: 5%; padding-right: 5%; color: black;">
+        <q>Studio Ghibli</q> ialah sebuah studio film animasi yang berbasis di Koganei, Tokyo, Jepang. Film-film animenya mengandung unsur-unsur provokatif, imajinatif, emosional, dan telah mendapatkan pujian yang luas dari seluruh dunia.
+        Sebagian besar film Studio Ghibli yang banyak menerima penghargaan adalah film-film yang disutradarai oleh Hayao Miyazaki. Film Ghibli yang bukan merupakan hasil arahan Miyazaki yang paling terkenal dan dipuji adalah Grave of the Fireflies yang disutradarai Isao Takahata, sebuah film sedih yang terfokus pada kehidupan dua anak yatim piatu pada zaman pasca-Perang Dunia II di Jepang.
+        Film-film hasil garapan Studio Ghibli sangat diminati bukan hanya di dalam negeri saja, tetapi hingga ke mancanegara. Pada tanggal 1 Oktober 2001, didirikanlah Museum Ghibli, yang menjadi salah satu destinasi wisata paling banyak dikunjungi di Jepang.
+    <br>
+    <br>
+    <!--Best Movie-->
+    Kedua film ini menjadi best movie dari studio tersebut.
+    <p>
+    
+       
+    <!--Gambar movienya-->
+    <img src="images/spirited away.jpeg" width="300" height="300" style="margin: 30px 30px 30px 30px;"> <img src="images/my neighbor totoro.jpeg" width="300" height="300" style="margin: 30px 30px 30px 30px;">
+
+    
+    <!--styling-->
+    <style>
+        p {
+            border: 2px solid hwb(0 0% 100%);
+        }
+    </style>
+    <body>
+        <p>
+            <br><mark>Memenangkan penghargaan Oscar</mark> <br>
+            <br>Film Spirited Away memenangkan penghargaan Oscar pada tahun 2002 dalam kategori Film Animasi Terbaik dan menjadi anime pertama yang meraih penghargaan dalam kategori tersebut.
+        </p>
+    <!--Informasi lebih lanjut dengan link-->
+    <p style="background-color: white; color: black;"> Untuk Selengkapnya, <a href="https://id.wikipedia.org/wiki/Studio_Ghibli" target="_blank"> klik disini</a></p>
+
+    </div>
+</body>
+</html>
