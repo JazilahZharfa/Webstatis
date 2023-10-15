@@ -1,21 +1,21 @@
 <html>
-
 <head>
     <title>Perpustakaan Jakarta TIM: Tempat Edukasi Untuk Anak</title>
 </head>
 
     <h1 style="color: azure; background-color: green; text-align: center;">Perpustakaan Jakarta TIM</h1>
-    <img src="images/Perpus TIM.jpeg"; width="500" height="500">
+    <img src="images/Perpus TIM.jpeg"; width="700" height="500">
 
 <p style="font-family: bookman old style; backdrop-filter: blur; color: black;">
      <span class="note">Perpustakaan Jakarta TIM</span> adalah adalah lembaga yang menyediakan koleksi buku dan sumber informasi, serta berbagai buku, majalah, surat kabar, dan media lain untuk dibaca dan dipinjamkan. Perpustakaan TIM Jakarta telah beroperasi sejak didirikan pada tahun 1984 dan terus berfungsi sebagai lembaga pendidikan dan kebudayaan yang penting di Jakarta. Perpustakaan TIM Jakarta bertujuan untuk memfasilitasi akses informasi dan sumber daya budaya bagi warga Jakarta.
-        Menawarkan koleksi yang beragam, tempat belajar yang nyaman, serta berbagai program pendidikan dan kegiatan budaya, perpustakaan ini mendukung peningkatan literasi dan pengembangan diri masyarakat.
+        Menawarkan koleksi yang beragam, tempat belajar yang nyaman, serta berbagai program pendidikan dan kegiatan budaya, perpustakaan ini mendukung peningkatan literasi dan pengembangan diri masyarakat. Perpustakaan Jakarta Cikini ini sudah dirancang sejak tahun 2019 oleh arsitek Andra Matin. Ruang perpustakaan ini terdiri dari tiga lantai dengan interior hangat dan modern. Tersedia koleksi buku dari berbagai genre, fasilitas bilik diskusi, dan ruang siaran yang bisa diakses oleh anggota perpustakaan.
     </p>
 
 <p style="font-family: bookman old style; backdrop-filter: blur; color: chartreuse;">
-    <mark>Ada beberapa layanan yang disediakan oleh Perpustakaan Jakarta TIM. Yaitu:</mark>
+    <mark>Ada beberapa layanan yang disediakan oleh Perpustakaan Jakarta TIM. Yaitu :</mark>
 </p>
-    <!--HTML List-->
+
+<!--HTML List-->
     <ol style="font-family: bookman old sytyle; font-size: 20px;">
         <li>Layanan Ruang Baca Anak</li>
         <li>Layanan Sirkulasi</li>
@@ -24,34 +24,61 @@
     </ol>
     <br>
 
+    <div>
+<!--HTML Tabel-->
+    <h2 style="font-family: bookman old style; border: 3px solid black; text-align: center;">Informasi lebih lanjut mengenai Perpustakaan Jakarta TIM</h2>
+    </div>
+    <div style="padding-left: 30px; padding-right: 30px; font-family: bookman old style;">
 
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+            table, td {
+                border: 1px solid black;
+            }
+            td {
+                padding: 10px;
+            }
+        </style>
 
+        <table>
+            <tr>
+                <td>Alamat Perpustakaan</td>
+                <td>Taman Ismail Marzuki Jl. Cikini Raya No.73, RT.8/RW.2, Cikini, 
+                    Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10330</td>
+            </tr>
+            <tr>
+                <td>Jam Buka Perpustakaan</td>
+                <td>Setiap hari jam 09.00-17.00 WIB</td>
+                <th>Note : Tutup pada cuti bersama dan hari libur nasional</th>
+            </tr>
+            <tr>
+                <td>Nomor Telepon</td>
+                <td>(021) 3154087</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+      
+    <iframe width="1250" height="600" src="https://www.youtube.com/embed/fVqqJu4ha6k?si=H9ETCm_tFIchT1c-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
-
-
-    <h2 style="font-family: bookman old style; padding-left: 30px; padding-right: 30px;">Apakah kalian tertarik menjadi anggota <span style="border: 2px solid black;">Perpustakaan Jakarta TIM?</span>
+    <h2 style="font-family: bookman old style; padding-left: 30px; padding-right: 30px;">Apakah anda tertarik menjadi anggota <span style="border: 2px solid black;">Perpustakaan Jakarta TIM?</span>
        
 <!--HTML Forms-->
 <form style="font-family: bookman old style; padding-left: 30px; padding-right: 30px; font-size: large;">
     <input type="radio" id="Yes" name="fav_language" value="Ya">
-    <label for="Yes">Ya</label><br>
+    <label for="Yes">Ya</label><br>    
     <input type="radio" id="No" name="fav_language" value="tidak">
     <label for="No">Tidak</label><br><br>
-    <h2>Daftar Sekarang disini</h2>
+    <h2>Daftar Sekarang disini</h2> 
     <label for="name">Nama :</label><br>
     <input type="text" id="name" name="name" value=""><br>
     <label for="eml">Email :</label><br>
     <input type="text" id="eml" name="eml" value=""><br>
     <label for="tlp">No Telepon :</label><br>
     <input type="text" id="tlp" name="tlp" value=""><br><br>
-    
-    
-    
-    
-    
-    
-    
+
     <style>
     body {
         background-color: wheat;
@@ -76,7 +103,7 @@
 
 <body>
 
-    <!--HTML Classes-->
+<!--HTML Classes-->
     <style>
         .note {
             font-size: 120%;
@@ -84,7 +111,7 @@
         }
     </style>
 
-    <!--HTML Id-->
+<!--HTML Id-->
     <style>
         #G {
             color: darkblue;
@@ -102,36 +129,7 @@
             margin-right: auto;
         }
     </style>
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     </form>
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
