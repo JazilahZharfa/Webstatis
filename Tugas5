@@ -25,10 +25,19 @@
     <br>
     <h2 style="font-family: bookman old style; padding-left: 30px; padding-right: 30px;">Apakah kalian tertarik menjadi anggota <span style="border: 2px solid black;">Perpustakaan Jakarta TIM?</span>
        
-    <!--HTML Forms-->
-    <form style="font-family: bookman old style; padding-left: 30px; padding-right: 30px; font-size: large;">
+<!--HTML Forms-->
+<form style="font-family: bookman old style; padding-left: 30px; padding-right: 30px; font-size: large;">
     <input type="radio" id="Yes" name="fav_language" value="Ya">
-    <label for="Yes">Ya</label><br>    
+    <label for="Yes">Ya</label><br>
+    <input type="radio" id="No" name="fav_language" value="tidak">
+    <label for="No">Tidak</label><br><br>
+    <h2>Daftar Sekarang disini</h2>
+    <label for="name">Nama :</label><br>
+    <input type="text" id="name" name="name" value=""><br>
+    <label for="eml">Email :</label><br>
+    <input type="text" id="eml" name="eml" value=""><br>
+    <label for="tlp">No Telepon :</label><br>
+    <input type="text" id="tlp" name="tlp" value=""><br><br>
     
     
     
