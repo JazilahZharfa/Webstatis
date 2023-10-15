@@ -13,16 +13,23 @@
     </p>
 
 <p style="font-family: bookman old style; backdrop-filter: blur; color: chartreuse;">
-    <mark>Berikut adalah layanan yang disediakan oleh Perpustakaan Jakarta TIM</mark>
+    <mark>Ada beberapa layanan yang disediakan oleh Perpustakaan Jakarta TIM. Yaitu:</mark>
 </p>
     <!--HTML List-->
     <ol style="font-family: bookman old sytyle; font-size: 20px;">
+        <li>Layanan Ruang Baca Anak</li>
         <li>Layanan Sirkulasi</li>
-        <li>Layanan Perpustakaan Digital</li>
-        <li>Layanan Diskusi</li>
-        <li>Layanan Pameran Seni</li>
+        <li>Layanan Multimedia</li>
+        <li>Layanan Penyediaan Bahan Pustaka</li>
     </ol>
     <br>
+
+
+
+
+
+
+
     <h2 style="font-family: bookman old style; padding-left: 30px; padding-right: 30px;">Apakah kalian tertarik menjadi anggota <span style="border: 2px solid black;">Perpustakaan Jakarta TIM?</span>
        
 <!--HTML Forms-->
