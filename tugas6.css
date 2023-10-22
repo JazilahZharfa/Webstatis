@@ -1,0 +1,67 @@
+/*ini adalah comment*/
+
+/*reset*/
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family:'Times New Roman';
+    color: black;
+    text-align: center;
+    
+}
+
+img{
+    width: 20%; /*ukuran gambar*/
+}
+
+
+/*paragraf*/
+p{
+    background-color: white;
+    color: black;
+    font-family: Georgia;
+    text-align: justify;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+}
+
+ul {
+    padding-left: 64px;
+    color: blue;
+    font-family: 'Lucida Sans';
+}
+
+/*link*/
+a {
+    color: blueviolet;
+}
+
+table {
+    padding-left: 10px;
+    width: 20%;
+    border-left: 2px solid red;
+    margin-left: 12px;
+    font-family: 'Times New Roman';
+    text-align: right;
+}
+
+.background-image {
+    background-image: url(images/zoologi.jpg);
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 50%;
+    background-attachment: fixed;
+}
+
+.head {
+    border-radius: 10px;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
