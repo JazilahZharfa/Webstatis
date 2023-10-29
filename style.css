@@ -1,0 +1,154 @@
+body {
+    background-color: peru;
+    font-family: monospace;
+    color: black;
+    
+}
+
+.background-image {
+    background-image: url(images/genshin.jpg);
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 50%;
+    background-attachment: fixed;
+}
+
+p {
+    color: white;
+    text-align: justify;
+    font-family: monospace;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    font-size: 120%;
+}
+
+.p1{
+    color: black;
+    text-align: center;
+    font-size: 200%;
+    font-family: monospace;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    border: 3px solid white;
+}
+
+.p2 {
+    color: white;
+    text-align: justify;
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    font-family: 'Lucida Sans';
+}
+
+
+ol.test {
+    font-size: 150%;
+    font-family: monospace;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    text-align: justify;   
+    list-style-type: decimal; 
+}
+
+table {
+    border-collapse: collapse;
+    position: relative;
+    margin: auto;
+    color: white;
+}
+
+table ol, li {
+    border: 5px solid burlywood;
+    padding: 7px 17px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+.div1 {
+    border-style: solid;
+    border-radius: 30px;
+    outline-style: solid;
+    outline-color: white;
+}
+
+img {
+    width: 700;
+    height: 400;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header .judul {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:active {
+    color: brown;
+}
+
+a:hover {
+    color: black;
+}
+
+.icon {
+    color: black;
+    font-size: 150%;
+    text-align: center;
+    font-family: Georgia;
+}
+
+.fa-facebook {
+    color: black;
+    margin-left: 5%;
+    width: 50;
+    height: 50;
+}
+
+.fa-x-twitter {
+    color: black;
+    margin-left: 5%;
+    width: 50;
+    height: 50;
+}
+
+.fa-instagram {
+    color: black;
+    margin-left: 5%;
+    width: 50;
+    height: 50;
+}
+
+.fa-youtube {
+    color: black;
+    margin-left: 5%;
+    width: 50;
+    height: 50;
+}
+
+.fa-tiktok {
+    color: black;
+    margin-left: 5%;
+    width: 50;
+    height: 50;
+}
