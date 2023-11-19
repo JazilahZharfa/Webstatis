@@ -14,7 +14,6 @@ document.querySelector('#close-login-btn').onclick = () =>{
     loginform.classList.remove('active');
 }
 
-
 window.onscroll = () =>{
 
     searchForm.classList.remove('active');
@@ -33,18 +32,3 @@ window.onload = () =>{
         document.querySelector('.header .header2').classList.remove('active');
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
