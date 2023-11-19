@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Belobook-Toko Buku Online Terpercaya</title>
+        <link rel="icon" type="images/x-icon" href="images/Belobook.png">
+
+<!--font link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+<!--css link-->
+    <link rel="stylesheet" href="UTS.css">
+    </head>
+
+    <body>
+
+<!--Header-->
+    <header class="header">
+
+        <div class="header1">
+
+            <a href="#" class="logo"> <i class="fas fa-book"></i>Belobook</a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="cari disini..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+        </div>
+
+        <div class="header2">
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#produk">Best Seller</a>
+                <a href="#arrivals">New Stock</a>
+                <a href="#container">contact</a>
+                <a href="#about">Tentang Kami</a>
+            </nav>
+        </div>
+    </header>
+
+<!--Navigasi bar-->
+<nav class="bawah-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#produk" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-book"></a>
+    <a href="#container" class="fas fa-comments"></a>
+    <a href="#about" class="fas fa-user"></a>
+</nav>
+
+
+<!--login-->
+<div class="login-form-container">
+
+<div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>Masuk</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="masukkan email" id="">
+        <span>kata sandi</span>
+        <input type="kata sandi" name="" class="box" placeholder="masukkan kata sandi" id="">
+
+        <div class="checkbox">
+            <input type="checkbox" name="" id="ingat saya">
+            <label for="ingat saya">ingat saya</label>
+        </div>
+        <input type="submit" value="masuk" class="btn">
+        <p>lupa password? <a href="#">atur ulang</a></p>
+        <p>belum punya akun? <a href="#">buat disini</a></p>
+    </form>
+</div>
+
+<!--home-->
+<section class="home" id="home">
+    <div class="row">
+
+        <div class="content">
+            <h3>Diskon 50% </h3>
+            <p>Hanya untuk hari ini, buku karya Tere Liye bisa anda dapatkan hanya dengan harga Rp 50.000. Beli sekarang juga</p>
+            <a href="#" class="btn">Beli disini</a>
+        </div>
+
+        <div class="books-slider"> 
+                <a href="#"> <img src="images/bumi.jpg" alt=""></a>
+                <a href="#"> <img src="images/hujan.jpg" alt=""></a>
+                <a href="#"> <img src="images/bintang.jpg" alt=""></a>
+                <a href="#"> <img src="images/bulan.jpg" alt=""></a>
+                <a href="#"> <img src="images/matahari minor.jpg" alt=""></a>
+                <a href="#"> <img src="images/tentang kamu.jpg" alt=""></a>
+                <a href="#"> <img src="images/sagaras.jpg"  alt=""></a>
+                <a href="#"> <img src="images/lumpu.jpg" alt=""></a>
+                <a href="#"> <img src="images/rindu.jpg" alt=""></a> 
+                <a href="#"> <img src="images/si anak pintar.jpg"></a>
+        </div>
+    </div>
+</section>
+
+
+<!--Produk unggulan-->
+<section class="produk" id="produk">
+
+    <h1 class="heading"> <span>Best Seller</span></h1>
+
+    <div class="featured-slider">                                   
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image" data-name="novel1">
+                    <img src="images/azzamine.jpg" alt=""> 
+                </div> 
+                <div class="content">
+                    <h3>AZZAMINE</h3>
+                    <div class="harga">Rp 99.000</div>
+                    <a href="#" class="btn">Masukkan Keranjang</a>
+                </div>
+            </div>
+            <!--End--> 
+
+            <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <div class="image" data-name="novel2">
+                    <img src="images/hello cello.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Hello, Cello</h3>
+                    <div class="harga">Rp 95.000</div>
+                    <a href="#" class="btn">Masukkan Keranjang</a>
+                </div>
+            </div>
+            <!--End--> 
+
+            <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <div class="image" data-name="novel3">
+                    <img src="images/hilmy milan.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Hilmy Milan</h3>
+                    <div class="harga">Rp 99.000</div>
+                    <a href="#" class="btn">Masukkan Keranjang</a>
+                </div>
+            </div>
+            <!--End-->
+
+            <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <div class="image" data-name="novel4">
+                    <img src="images/housemate.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Housemate</h3>
+                    <div class="harga">Rp 96.000</div>
+                    <a href="#" class="btn">Masukkan Keranjang</a>
+                </div>
+            </div>
+            <!--End-->
+                
+            <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <div class="image" data-name="novel5">
+                    <img src="images/insecurity.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Insecurity</h3>
+                    <div class="harga">Rp 75.000</div>
+                    <a href="#" class="btn">Masukkan Keranjang</a>
+                </div>
+            </div>
+                <!--End-->
+             
+            <div class="box">
+                    <div class="icons">                        
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <div class="image" data-name="novel6">
+                    <img src="images/laut bercerita.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Laut Bercerita</h3>
+                    <div class="harga">Rp 99.000</div>
+                    <a href="#" class="btn">Masukkan Keranjang</a>
+                </div>
+            </div>
+                <!--End-->
+
+            <div class="box">    
+                    <div class="icons">                        
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <div class="image" data-name="novel7">
+                    <img src="images/mariposa.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mariposa 2</h3>
+                    <div class="harga">Rp 95.000</div>
+                    <a href="#" class="btn">Masukkan Keranjang</a>
+                </div>
+            </div>
+                <!--End-->
+
+            <div class="box">
+                    <div class="icons">                       
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <div class="image" data-name="novel8">
+                    <img src="images/my youth.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>My Youth</h3>
+                    <div class="harga">Rp 98.000</div>
+                    <a href="#" class="btn">Masukkan Keranjang</a>
+                </div>
+            </div>
+                <!--End-->
+                
+            <div class="box">
+                    <div class="icons">                        
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <div class="image" data-name="novel9">
+                    <img src="images/self healing.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Self Healing</h3>
+                    <div class="harga">Rp 80.000</div>
+                    <a href="#" class="btn">Masukkan Keranjang</a>
+                </div>
+            </div>
+                <!--End-->
+                
+            <div class="box">
+                    <div class="icons">                        
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <div class="image" data-name="novel10">
+                    <img src="images/tulisan sastra.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Tulisan Sastra</h3>
+                    <div class="harga">Rp 99.000</div>
+                    <a href="#" class="btn">Masukkan Keranjang</a>
+                </div>        
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Buku baru-->
+<section class="arrival" id="arrivals">
+    <h1 class="heading"> <span>New Stock</span></h1>
+    <div class="arrival-slider">
+        <div class="wrapper">
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="images/butterflies.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Butterflies</h3>
+                    <div class="harga">Rp 95.000</div>
+                </div>
+                <a href="#" class="btn">Beli Sekarang</a>
+            </a>
+            
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="images/funiculi funicula.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Funiculi Funicula</h3>
+                    <div class="harga">Rp 79.000</div>
+                </div>
+                <a href="#" class="btn">Beli Sekarang</a>
+            </a>
+
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="images/jktpbs.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Jika Kita Tak Pernah Baik-Baik Saja</h3>
+                    <div class="harga">Rp 79.000</div>
+                </div>
+                <a href="#" class="btn">Beli Sekarang</a>
+            </a>
+
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="images/Bumi Dan Lukanya.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bumi dan Lukanya</h3>
+                    <div class="harga">Rp 79.000</div>
+                </div>
+                <a href="#" class="btn">Beli Sekarang</a>
+            </a>
+
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="images/malio.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Malioboro at Midnight</h3>
+                    <div class="harga">Rp 99.000</div> 
+                </div>
+                <a href="#" class="btn">Beli Sekarang</a>
+            </a>   
+        </div>
+    </div>
+</section>
+
+<!--Tentang Kami-->
+<section class="about" id="about">
+    <h1 class="heading"> <span>Tentang Kami</span></h1>
+    <div class="content">
+            <p>Belobook adalah toko buku online yang baru saja dijalankan. Tersedia banyak buku-buku novel terbaru disini.
+                Meskipun baru, namun belobook sudah berhasil menjual ribuan buku kepada masyarakat. Dengan banyaknya diskon dan gratis ongkir yang diberikan oleh Belobook membuat banyak orang yang membeli disini.
+                Pemilik belobook membuat sebuah toko online ini berdasarkan nama hewan peliharaannya dan buku yang dijual merupakan koleksi pribadi.</p>
+        </div>
+    </div>
+</section>
+
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <h3>Contact Us</h3>
+            <p>Email : belo30030@gmail.com</p>
+            <p>Telepon : 089650712719</p>
+        </div>
+
+        <div class="footer-content">
+            <h3>Quick Link</h3>
+            <ul class="list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produk">Product</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#arrivals">Gallery</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-content">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li><a href=""><i class="fab fa-facebook"></i></a></li>
+            </ul> 
+        </div>
+    </div>
+    <div class="bottom-bar">
+        <p>&copy; 2023 Belobook .All rights reserved</p>
+    </div>    
+</footer>    
+
+<!--jss link-->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
